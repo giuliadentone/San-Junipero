@@ -1,0 +1,64 @@
+header,
+footer,
+nav {
+  display: none;
+}
+
+p,
+h1,
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5em;
+}
+
+
+p {
+  font-size: 12pt;
+}
+
+h1 {
+  font-size: 24pt;
+}
+
+h2 {
+  font-size: 14pt;
+  
+}
+
+img {
+  max-width: 500px;
+}
+
+.btn.primary-btn.place-events-btn {
+  margin-top: 30px
+}
+
+a,
+a:visited {
+  display: none;
+}
+
+.h-card {
+  border-radius: 0%;
+  text-align: left;
+}
+
+button{
+  display: none;
+}
+
+.h-card-text {
+  text-align: left;
+}
+
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+
+.plan-feature {
+  display: flex;
+  justify-content: space-between;
+}
+

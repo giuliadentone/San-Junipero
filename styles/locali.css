@@ -1,0 +1,77 @@
+.place-img {
+    width: 30vw;
+    border-radius: var(--card-b-radius);
+    object-fit: cover;
+}
+
+.place-info-container {
+    margin-left: 2vw;
+}
+
+
+.place-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.place-name {
+    font-size: var(--fs-h1-d);
+}
+
+.place-street {
+    margin-top: 1vh;
+    color: var(--clr-secondary);
+}
+
+.place-desc {
+    font-size: var(--fs-p-d);
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    line-height: 1.5em;
+}
+
+.place-events-btn,
+.place-events-btn:visited {
+    width: 200px;
+    height: var(--btn-h);
+    border: none;
+    border-radius: var(--btn-b-radius);
+    background-color: var(--clr-btn);
+    color: var(--clr-btn-text);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer {
+    margin-top: 6vh;
+}
+
+@media screen and (max-width: 728px) {
+    .h-card {
+        flex-direction: column;
+    }
+
+    .place-desc {
+        font-size: var(--fs-p-m);
+    }
+
+    .place-name {
+        font-size: var(--fs-h1-m);
+    }
+
+    .place-img {
+        align-self: center;
+        width: 90%;
+        margin-bottom: 4vh;
+    }
+
+    .btn-container {
+        display: flex;
+        justify-content: center;
+    }
+}

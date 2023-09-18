@@ -1,0 +1,64 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: var(--card-b-radius);
+    width: 40vw;
+    padding: 40px;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+}
+
+.input-label {
+    margin-top: 1vh;
+}
+
+.form-input-medium {
+    width: 70%;
+}
+
+.form-input-small {
+    width: 60%;
+}
+
+#msg {
+    height: 20vh;
+    border: none;
+    border-radius: 20px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding-top: 2vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: gainsboro;
+    resize: none;
+}
+
+.submit-btn {
+    margin-top: 2vh;
+    width: 120px;
+    align-self: flex-end;
+    text-decoration: underline;
+}
+
+.submit-btn:hover {
+    text-decoration: none;
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+    .contact-form {
+        width: 90vw;
+    }
+
+    .input-container .form-input {
+        width: 30vw;
+    }
+
+    #msg,
+    .form-input-medium,
+    .form-input-small {
+        padding-left: 3vw;
+    }
+}

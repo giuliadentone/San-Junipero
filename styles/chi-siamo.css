@@ -1,0 +1,26 @@
+.heading {
+    width: 60vw;
+}
+
+.faq {
+    margin-top: 12vh;
+    margin-bottom: 4vh;
+}
+
+.faq-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.faq-question {
+    margin-bottom: 2vh;
+}
+
+.more {
+    margin-bottom: 8vh;
+    text-align: center;   
+}
+
+.page-desc {
+    text-align: center;
+}

@@ -1,0 +1,88 @@
+.main-btn {
+    margin-bottom: 4vh;
+}
+
+.events-count {
+    color: var(--clr-a-visited);
+    font-weight: bold;
+    margin-bottom: 6vh;
+    font-size: var(--fs-home-p-d);
+}
+
+.event-card {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.event-heading {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.event-text {
+    margin-right: 2vw;
+}
+
+.event-place {
+    color: var(--clr-a-visited);
+    margin-left: 1vw;
+}
+
+.event-desc {
+    margin-top: 2vh;
+    text-align: justify;
+    line-height: 1.5em;
+
+}
+
+.event-timestamp {
+    margin-left: 1vw;
+}
+
+.booking-container {
+    align-self: center;
+}
+
+.booking-btn {
+    margin-top: 1vh;
+}
+
+.spots-available {
+    margin-top: 2vh;
+}
+
+footer {
+    margin-top: 6vh;
+}
+
+.secondary-btn.booking-btn {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 928px) {
+
+    .event-card,
+    .event-heading {
+        flex-direction: column;
+    }
+
+    .event-heading {
+        align-items: flex-start;
+        margin-left: 3vw;
+    }
+
+    .event-place,
+    .event-timestamp {
+        margin-left: 0;
+        margin-top: 1vh;
+    }
+
+    .event-desc {
+        margin-left: 3vw;
+        margin-right: 3vw;
+        margin-bottom: 4vh;
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+<headPlaceholder />
+
+<body>
+    <headerPlaceholder />
+
+    <main  id="contenuto">
+        <form class="event-form card-shadow" action="<urlPrefixPlaceholder/>/php/utils/doCreaEvento.php" method="POST">
+            <h1 class="page-heading">Aggiungi l'evento</h1>
+            <div class="inputs-container flex-col-center">
+                <label for="nome-evento" class="input-label">Nome evento</label>
+                <input id="nome-evento" class="form-input" type="text" name="nome-evento" value=""
+                    placeholder="Inserisci il nome dell'evento" required aria-required="true" />
+                <label for="descrizione" class="input-label">Descrizione evento</label>
+                <input id="descrizione" class="form-input" type="text" name="descrizione" value=""
+                    placeholder="Inserisci la descrizione dell'evento" required aria-required="true" />
+                <label for="locale">Luogo</label>
+                <select name="locale" id="locale">
+                    <getLocali />
+                </select>
+                <label for="data-inizio-evento" class="input-label">Data inizio evento</label>
+                <input id="data-inizio-evento" class="form-input" type="datetime-local" name="data-inizio-evento"
+                    value="" required />
+                <label for="data-fine-evento" class="input-label">Data fine evento</label>
+                <input id="data-fine-evento" class="form-input" type="datetime-local" name="data-fine-evento" value=""
+                    required />
+                <span id="dateErr" class='hide error-msg'>La data inserita non è valida</span>
+            </div>
+            <div class="btns-container flex-row-center">
+                <button class="btn primary-btn confirm-btn" name="submit" id="crea" value="Crea">Crea</button>
+                <a class="btn secondary-btn undo-btn" href="<urlPrefixPlaceholder/>/php/eventi.php">Annulla</a>
+            </div>
+        </form>
+    </main>
+    <footerPlaceholder />
+    <script src="<urlPrefixPlaceholder/>/scripts/creaEventiChecker.js"></script>
+</body>
+
+</html>

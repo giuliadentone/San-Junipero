@@ -1,0 +1,65 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    border-radius: var(--card-b-radius);
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+}
+
+.page-heading {
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+}
+
+.inputs-container {
+    width: 30vw;
+}
+
+.form-input {
+    margin-bottom: 4vh;
+    width: 15vw;
+}
+
+.btns-container {
+    margin-bottom: 6vh;
+    width: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.btns-container button {
+    margin-right: 2vw;
+}
+
+.btns-container a {
+    margin-left: 2vw;
+}
+
+.mostra-password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -2vh;
+    margin-bottom: 4vh;
+}
+
+#mostra-password {
+    margin: 0;
+    margin-right: 0.25vw;
+}
+
+.show-password-label {
+    margin: 0;
+    margin-left: 0.25vw;
+}
+
+@media only screen and (max-width: 728px) {
+    .form-input {
+        width: 50vw;
+    }
+}

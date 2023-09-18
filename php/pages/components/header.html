@@ -1,0 +1,49 @@
+<header>
+    <div class="salto-navigazione">
+        <a class="aiuti" href="#contenuto">salta la navigazione</a>
+    </div>
+    <div class="l-container">
+        <div class="logo-container">
+            <a href="<urlPrefixPlaceholder/>/index.php">
+                <img id="san-junipero-logo" class="logo" src="<urlPrefixPlaceholder/>/images/logo125x125.png" alt="vai a Home" />
+            </a>
+            <h1 id="san-junipero" class="logo-text">San Junipero</h1>
+        </div>
+
+        <nav id="menu-nav" class="menu" aria-label="principale">
+            <ul class="menu-links-list">
+                <li class="menu-link"><a class="page" href="<urlPrefixPlaceholder/>/index.php">Home</a></li>
+                <li class="menu-link"><a class="page" href="<urlPrefixPlaceholder/>/php/abbonamenti.php">Abbonamenti</a></li>
+                <li class="menu-link"><a class="page" href="<urlPrefixPlaceholder/>/php/locali.php">Locali</a></li>
+                <li class="menu-link"><a class="page" href="<urlPrefixPlaceholder/>/php/eventi.php">Eventi</a></li>
+                <li class="menu-link"><a class="page" href="<urlPrefixPlaceholder/>/php/chiSiamo.php">Chi siamo</a></li>
+                <li class="menu-link"><a class="page" href="<urlPrefixPlaceholder/>/php/contatti.php">Contatti</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="r-container">
+        <userMenuPlaceholder />
+        <div class="switch-container" id="dark-mode-toggle">
+            <span class="dark-mode-icon" aria-hidden="true">☀️</span>
+            <label class="switch" for="dark-mode-switch">
+                <input type="checkbox" id="dark-mode-switch" aria-label="switch modalità scura" />
+                <span class="slider round"></span>
+                <span lang="en">switch</span>
+            </label>
+            <span class="dark-mode-icon" aria-hidden="true">🌙</span>
+        </div>
+        <!-- toggle -->
+        <div role="button" tabindex="0" class="menu-toggle hide" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <!-- toggle -->
+    </div>
+</header>
+
+<nav aria-label="Breadcrumb" id="breadcrumb-nav" class="breadcrumb-container flex-row-center">
+    <p class="breadcrumb-text">Ti trovi in: <span class="breadcrumb" aria-current="page">
+            <breadcrumbPlaceholder />
+        </span></p>
+</nav>
